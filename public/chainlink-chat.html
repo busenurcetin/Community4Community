@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <title>Community Chat Bird</title>
+</head>
+<body>
+    
+    <h1 class="title-chainlink"><i class="fa-comment-slash"> Chainlink </i></h1>
+    <h3 class="clients-total" id="client-total">
+        Total Users: 2
+    </h3>
+    <div class="button-container">
+        <button class="chat-choose" id="yeni-yazilimci" onclick="goToPage('yeni-yazilimci-chat.html')">Yeni Yazılımcı</button>
+        <button class="chat-choose" id="kampus" onclick="goToPage('kampus-chat.html')">Kampus</button>
+        <button class="chat-choose" id="chainlink" onclick="goToPage('index.html')">Ana Sayfa</button>
+    </div>
+    <br>
+    <br>
+    <div class="main">
+        <div class="name">
+            <span><i class="far fa-user"></i></span>
+            <input type="text" id="name-input" class="name-input" value="anonymous" maxlength="20">
+        </div>
+        <ul class="message-container" id="message-container">
+            <!-- For Left -->
+            <li class="message-left">
+                <p class="message">
+                    lorem ipsum
+                    <span>bluebird 26 july 10.40</span>
+                </p>
+            </li>
+            <!-- For Right -->
+            <li class="message-right">
+                <p class="message">
+                    lorem ipsum
+                    <span>bluebird 26 july 10.40</span>
+                </p>
+            </li>
+
+            <li class="message-feedback">
+                <p class="feedback" id="feedback">
+                    killer is typing a message...
+                </p>
+            </li>
+        </ul>
+
+        <form action="" id="message-form" class="message-form">
+            <input type="text" name="message" id="message-input" class="message-input">
+            <div class="v-divider"></div>
+            <button type="submit" class="send-button">
+                SEND <span><i class="fas fa-paper-plane"></i></span>
+            </button>
+        </form>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment-with-locales.min.js" integrity="sha512-42PE0rd+wZ2hNXftlM78BSehIGzezNeQuzihiBCvUEB3CVxHvsShF86wBWwQORNxNINlBPuq7rG4WWhNiTVHFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
