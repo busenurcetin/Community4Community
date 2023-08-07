@@ -2,7 +2,7 @@
 
 > Bu projeyi Türkiye'de desteklediğim toplulukların bir araya gelip ortak bir proje üzerinden katkı sağlamaları için oluşturdum. Her topluluk kendi arayüzünü özelleştirebilir, proje arayüzü için eklemeler ve çıkarmalar yapabilir. Projeyi amacından çıkmaması kaydıyla geliştirebilir, istenilen yenilikler için tartışma açabilir.
 
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
+> Live demo [_here_](https://www.example.com).
 
 ## İçerik
 * [Genel Bilgi](#general-information)
@@ -33,13 +33,14 @@
 
 ## Projeye Bakış
 ![Example screenshot](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
 
 
-## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
+## Setup(Kurulum)
+NodeJS
+Nodemon
+express
+socket.io
 
-Proceed to describe how to install / setup one's local environment / get started with the project.
 
 
 ## Kullanım
@@ -57,15 +58,17 @@ Gelişştirmeye Açık Tüm Proje Kapsamlı Sorunlar:
 - Nickname kısmı düzeltilebilir.
 
 ## Bilgilendirme
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
+- Bu proje sadece basit bir web socket chat projesi olacaktı fakat yaptığı işleri beğendiğim toplulukları da projeye dahil etmek istedim.
 
 
 ## İletişim
-[@busenurcetin16l](https://www.flynerd.pl/) tarafından oluşturuldu, dilediğiniz zaman iletişime geçebilirsiniz.
+[Twitter - @busenurcetin16](https://twitter.com/busenurcetin16) tarafından oluşturuldu, dilediğiniz zaman iletişime geçebilirsiniz.
 
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
+## Topluluk İletişim
 
+[Chainlink]()
+[Kampus](https://discord.gg/533xacup)
+[Yeni Yazılımcı](https://discord.gg/QSrTWjWqJt)
 
+## License 
+Bu proje GNU General Public lisansı altında açık kaynak olarak paylaşılmıştır.
