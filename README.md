@@ -43,30 +43,20 @@ Proceed to describe how to install / setup one's local environment / get started
 
 
 ## Kullanım
-How does one go about using it?
-Provide various use cases and code examples here.
+Aşağıdaki kod bloğunu çalışma alanınızda terminale yazarsanız projeyi localhost'ta çalıştırabilirsiniz
 
-`write-your-code-here`
+`npm run dev`
 
 
 ## Proje Durumu
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
-
+Proje, katkı yapıldığı sürece devam edecektir.
 
 ## Geliştirme İçin
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
-
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
-
-To do:
-- Feature to be added 1
-- Feature to be added 2
-
+Gelişştirmeye Açık Tüm Proje Kapsamlı Sorunlar:
+- Arayüz daha iyi bir hale getirilebilir.
+- Nickname kısmı düzeltilebilir.
 
 ## Bilgilendirme
-Give credit here.
 - This project was inspired by...
 - This project was based on [this tutorial](https://www.example.com).
 - Many thanks to...
