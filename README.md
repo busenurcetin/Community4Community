@@ -2,7 +2,7 @@
 
 > Bu projeyi Türkiye'de desteklediğim toplulukların bir araya gelip ortak bir proje üzerinden katkı sağlamaları için oluşturdum. Her topluluk kendi arayüzünü özelleştirebilir, proje arayüzü için eklemeler ve çıkarmalar yapabilir. Projeyi amacından çıkmaması kaydıyla geliştirebilir, istenilen yenilikler için tartışma açabilir.
 
-> Live demo [_here_](https://www.example.com).
+> Canlı Proje [_here_](https://community4-community.vercel.app).
 
 ## İçerik
 * [Genel Bilgi](#general-information)
@@ -32,7 +32,7 @@
 
 
 ## Projeye Bakış
-![Example screenshot](./img/screenshot.png)
+![Resim](../public/images/image.png)
 
 
 ## Setup(Kurulum)
