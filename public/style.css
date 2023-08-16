@@ -205,6 +205,12 @@ ul{
     border: 2px solid #fff;
 }
 
+#hackchain:hover{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: 2px solid #fff;
+}
+
 .chat-choose{
     border-radius: 10px;
     height: 46px;
