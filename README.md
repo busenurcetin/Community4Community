@@ -32,15 +32,7 @@
 
 
 ## Projeye Bakış
-![Resim](../public/images/image.png)
-
-
-## Setup(Kurulum)
-NodeJS
-Nodemon
-express
-socket.io
-
+![Resim](image.jpeg)
 
 
 ## Kullanım
@@ -66,9 +58,10 @@ Gelişştirmeye Açık Tüm Proje Kapsamlı Sorunlar:
 
 ## Topluluk İletişim
 
-[Chainlink]()
+[Chainlink](https://twitter.com/ChainlinkTurkey)
 [Kampus](https://discord.gg/533xacup)
 [Yeni Yazılımcı](https://discord.gg/QSrTWjWqJt)
+[HackChain](https://discord.gg/NeQArtxS)
 
 ## License 
 Bu proje GNU General Public lisansı altında açık kaynak olarak paylaşılmıştır.
