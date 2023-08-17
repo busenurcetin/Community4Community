@@ -47,7 +47,7 @@ Proje, katkı yapıldığı sürece devam edecektir.
 
 ## Geliştirme İçin
 Gelişştirmeye Açık Tüm Proje Kapsamlı Sorunlar:
-- Arayüz daha iyi bir hale getirilebilir.
+
 - Nickname kısmı düzeltilebilir.
 
 ## Bilgilendirme
