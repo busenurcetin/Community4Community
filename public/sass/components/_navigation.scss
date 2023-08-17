@@ -1,0 +1,37 @@
+.navigation {
+    
+    &__list {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+    }
+
+    &__item {
+        position: relative;
+
+        &::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -5px;
+            width: 0%;
+            height: 4px;
+            border-radius: 999px;
+            background-color: var(--secondary-color);
+            transition: width 0.3s ease;
+        }
+
+        &:hover::after {
+            width: 100%;
+
+        }
+    }
+
+    &__link {
+        cursor: pointer;
+    }
+
+    @media(max-width: 768px) {
+        display: none;
+    }
+}

@@ -1,0 +1,33 @@
+.btn {
+    display: flex;
+    align-items: center;
+    border: 0;
+    outline: 0;
+    padding: 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: all 0.4s ease;
+
+    &-secondary {
+        background-color: var(--secondary-color);
+        color: var(--white-color);
+
+        &:hover {
+            background-color: var(--secondary-color-hovered);
+        }
+    }
+
+    &--send {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+
+        &::before {
+
+            content: '\f1d8';
+            font-family:  "Font Awesome 6 Free";
+            font-weight: 900;
+        }
+    }
+
+}
