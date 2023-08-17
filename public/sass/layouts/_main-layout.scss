@@ -1,0 +1,5 @@
+.main-layout {
+    display: grid;
+    grid-template-rows: 80px 1fr;
+    height: calc(100% - 80px);
+}

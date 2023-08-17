@@ -1,0 +1,18 @@
+.form-item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    label {
+        font-size: 14px;
+        color: var(--text-gray-color);
+    }
+}
+
+input {
+    padding: 12px;
+    outline: 0;
+    border: 1px solid var(--border-color);
+    font-size: 14px;
+    border-radius: 4px;
+}

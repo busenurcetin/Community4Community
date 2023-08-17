@@ -32,7 +32,8 @@
 
 
 ## Projeye Bakış
-![Resim](image.jpeg)
+![screencapture-localhost-4000-2023-08-17-12_58_02](https://github.com/girayselcuk/Community4Community/assets/80980937/59c97db1-1c4e-4605-9eb1-442ff01f15ee)
+
 
 
 ## Kullanım
@@ -46,7 +47,7 @@ Proje, katkı yapıldığı sürece devam edecektir.
 
 ## Geliştirme İçin
 Gelişştirmeye Açık Tüm Proje Kapsamlı Sorunlar:
-- Arayüz daha iyi bir hale getirilebilir.
+
 - Nickname kısmı düzeltilebilir.
 
 ## Bilgilendirme
