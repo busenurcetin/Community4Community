@@ -86,12 +86,14 @@ body {
 }
 
 .header {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 1px 24px;
+  background-color: var(--white-color);
+}
+.header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 100px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 1px 24px;
-  background-color: var(--white-color);
+  height: 100%;
 }
 .header__logo {
   font-size: 18px;
@@ -127,9 +129,6 @@ body {
   font-weight: 900;
 }
 
-.main {
-  padding: 0px 100px;
-}
 .main__title {
   padding: 12px 0px;
 }
@@ -252,4 +251,10 @@ input {
   border: 1px solid var(--border-color);
   font-size: 14px;
   border-radius: 4px;
+}
+
+.container {
+  width: 94%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
