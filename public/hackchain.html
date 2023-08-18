@@ -13,126 +13,133 @@
     <title>Community Chat</title>
 </head>
 <body>
-    
+
     <div class="main-layout">
         <!-- Header -->
         <header class="header">
-            <div class="header__logo">
-                ./Community4Community
+            
+            <div class="container">
+                <div class="header__logo">
+                    ./Community4Community
+                </div>
+
+                <div class="navigation">
+                    <ul class="navigation__list">
+    
+                        <li class="navigation__item">
+                            <a class="navigation__link" id="chat-choose" onclick="goToPage('index.html')">Anasayfa</a>
+                        </li>
+    
+                        <li class="navigation__item">
+                            <a class="navigation__link" id="chat-choose" onclick="goToPage('yeni-yazilimci-chat.html')">Yeni Yazılımcı</a>
+                        </li>
+    
+                        <li class="navigation__item">
+                            <a class="navigation__link" id="chat-choose" onclick="goToPage('kampus-chat.html')">Kampus</a>
+                        </li>
+    
+                        <li class="navigation__item">
+                            <a class="navigation__link" id="chat-choose" onclick="goToPage('chainlink-chat.html')">Chainlink</a>
+                        </li>
+    
+                        <li class="navigation__item">
+                            <a class="navigation__link" id="chat-choose" onclick="goToPage('hackchain.html')">HackChain</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
-            <div class="navigation">
-                <ul class="navigation__list">
-
-                    <li class="navigation__item">
-                        <a class="navigation__link" id="chat-choose" onclick="goToPage('index.html')">Anasayfa</a>
-                    </li>
-
-                    <li class="navigation__item">
-                        <a class="navigation__link" id="chat-choose" onclick="goToPage('yeni-yazilimci-chat.html')">Yeni Yazılımcı</a>
-                    </li>
-
-                    <li class="navigation__item">
-                        <a class="navigation__link" id="chat-choose" onclick="goToPage('kampus-chat.html')">Kampus</a>
-                    </li>
-
-                    <li class="navigation__item">
-                        <a class="navigation__link" id="chat-choose" onclick="goToPage('chainlink-chat.html')">Chainlink</a>
-                    </li>
-
-                    <li class="navigation__item">
-                        <a class="navigation__link" id="chat-choose" onclick="goToPage('hackchain.html')">HackChain</a>
-                    </li>
-                </ul>
-            </div>
         </header>
 
         <!-- Main -->
-        <main class="main">
+        <div class="container">
+            <main class="main">
 
-            <!-- Main Title -->
-            <h4 class="main__title">
-                Hackchain
-            </h4>
+                <!-- Main Title -->
+                <h4 class="main__title">
+                    HackChain
+                </h4>
 
-            <!-- Chat -->
-            <div class="chat">
-                
-                <!-- Chat Header -->
-
-                <div class="chat__header">
+                <!-- Chat -->
+                <div class="chat">
                     
-                    <div class="chat__username">
-                        <div class="chat__username-actions">
-                            <input type="text" id="name-input" placeholder="Enter Username...">
+                    <!-- Chat Header -->
+
+                    <div class="chat__header">
+                        
+                        <div class="chat__username">
+                            <div class="chat__username-actions">
+                                <input type="text" id="name-input" placeholder="Enter Username...">
+                                <button class="btn btn-secondary"  id="username-save">Kaydet</button>
+                            </div>
+                            <p class="chat__username-message" id="chat__username-message"></p>
                         </div>
-                        <p class="chat__username-message" id="chat__username-message"></p>
+
+                        <div class="chat__total-user" id="client-total">
+                            <p>Total Users: 2</p>
+                        </div>
+
                     </div>
 
-                    <div class="chat__total-user" id="client-total">
-                        <p>Total Users: 2</p>
-                    </div>
+                    <!-- Chat Content -->
+                    <div class="chat__content" id="chat__content">
 
-                </div>
+                        <div class="chat__message" id="message-container">
 
-                <!-- Chat Content -->
-                <div class="chat__content">
+                            <div class="chat__message-left">
 
-                    <div class="chat__message" id="message-container">
-
-                        <div class="chat__message-left">
-
-                            <div class="chat__message-box">
-                                <div class="chat__message-name">
-                                    User1
-                                </div>
-    
-                                <div class="chat__message-content">
-                                    Selam.
-                                </div>
-    
-                                <div class="chat__message-date">
-                                    a few seconds ago
+                                <div class="chat__message-box">
+                                    <div class="chat__message-name">
+                                        User1
+                                    </div>
+        
+                                    <div class="chat__message-content">
+                                        Selam.
+                                    </div>
+        
+                                    <div class="chat__message-date">
+                                        a few seconds ago
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="chat__message-right">
-                            <div class="chat__message-box">
-                                <div class="chat__message-name">
-                                    User2
-                                </div>
-    
-                                <div class="chat__message-content">
-                                    Selam!
-                                </div>
-    
-                                <div class="chat__message-date">
-                                    a few seconds ago
+                            <div class="chat__message-right">
+                                <div class="chat__message-box">
+                                    <div class="chat__message-name">
+                                        User2
+                                    </div>
+        
+                                    <div class="chat__message-content">
+                                        Selam!
+                                    </div>
+        
+                                    <div class="chat__message-date">
+                                        a few seconds ago
+                                    </div>
                                 </div>
                             </div>
+
                         </div>
 
                     </div>
 
-                </div>
-
-                <!-- Chat Footer -->
-                <div class="chat__footer" id="chat__footer">  
-                    <div class="chat__message-feedback">
-                        <p id="feedback"></p>
+                    <!-- Chat Footer -->
+                    <div class="chat__footer" id="chat__footer">  
+                        <div class="chat__message-feedback">
+                            <p id="feedback"></p>
+                        </div>
+                        <form class="chat__send" id="message-form">
+                            <input type="text" placeholder="Send Message..." id="message-input">
+                            <button type="submit" class="btn btn-secondary btn--send">Send</button>
+                        </form>
                     </div>
-                    <form class="chat__send" id="message-form">
-                        <input type="text" placeholder="Send Message..." id="message-input">
-                        <button type="submit" class="btn btn-secondary btn--send">Send</button>
-                    </form>
                 </div>
-            </div>
-        </main>
+            </main>
+        </div>
+   
     </div>
 
    
-
     <script src="/socket.io/socket.io.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment-with-locales.min.js" integrity="sha512-42PE0rd+wZ2hNXftlM78BSehIGzezNeQuzihiBCvUEB3CVxHvsShF86wBWwQORNxNINlBPuq7rG4WWhNiTVHFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/main.js"></script>
